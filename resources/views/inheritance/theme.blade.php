@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>@yield("title")</title>
+    <title>@yield("title") </title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/pricing/">
 
@@ -54,9 +54,8 @@
 
     <div class="container">
         <div class="text-center">
-        @yield("content") 
+            @yield("content")
         </div>
-
 
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="row">

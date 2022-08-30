@@ -14,6 +14,3 @@
     <h1>spider</h1>
 </body>
 </html>
-
-
-

@@ -1,7 +1,7 @@
 <html>
 
 <body>
-    <h1>Manlika 63122420010</h1>
+    <h1>Suchada 63122420009</h1>
     <a href="gallery/ant" ><img src="{{$ant}}" </a>
     <h1>ant</h1>
     <a href="gallery/bird" ><img src="{{$bird}}" </a>
@@ -14,6 +14,3 @@
     <h1>spider</h1>
 </body>
 </html>
-
-
-

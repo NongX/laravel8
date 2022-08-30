@@ -54,9 +54,8 @@
 
     <div class="container">
         <div class="text-center">
-        {{ $slot }} 
+            {{ $slot }}
         </div>
-
 
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="row">
