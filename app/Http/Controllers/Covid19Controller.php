@@ -11,6 +11,13 @@ use App\Models\Covid19;
 
 class Covid19Controller extends Controller
 {
+public function __construct()
+{
+    $this->middleware('auth');
+    $this->middleware('role:admin,teacher') ;
+}
+
+ss
     /**
      * Display a listing of the resource.
      *
