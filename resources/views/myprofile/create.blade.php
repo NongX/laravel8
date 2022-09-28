@@ -8,12 +8,11 @@
     </div>
     <div>
         <strong>Lastname : </strong>
-        <input type="text"value="{{ request('lastname') }}" />
+        <input type="text" value="{{ request('lastname') }}" />
     </div>
     <div>
         <strong>Email : </strong>
         <input type="text" />
     </div>
     <div><button type="submit">Add</button></div>
-</form> 
- 
+</form>

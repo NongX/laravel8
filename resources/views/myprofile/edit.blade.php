@@ -10,4 +10,4 @@
     <input value="{{ $profile->lastname }}" />
 </div>
 <div>{{ $others }}</div>
-<div><button type="submit">Save</button></div> 
+<div><button type="submit">Save</button></div>

@@ -1,7 +1,8 @@
 <x-themequiz title="">
     <div class="container">
         <div class="row">
-            
+
+
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">Post</div>
@@ -42,7 +43,7 @@
                                             <form method="POST" action="{{ url('/post' . '/' . $item->id) }}" accept-charset="UTF-8" style="display:inline">
                                                 {{ method_field('DELETE') }}
                                                 {{ csrf_field() }}
-                                                <button type="submit" class="btn btn-danger btn-sm" title="Delete Post" onclick="return confirm('Confirm delete?';)"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</button>
+                                                <button type="submit" class="btn btn-danger btn-sm" title="Delete Post" onclick="return confirm('Confirm delete?')"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</button>
                                             </form>
                                         </td>
                                     </tr>
@@ -58,4 +59,3 @@
         </div>
     </div>
 </x-themequiz>
-

@@ -1,5 +1,5 @@
 <x-theme title="">
-    <h1>World Coronavirus Report</h1>
+    <h1>Staff Report</h1>
     <a href="{{ url('/staff/create') }}" class="btn btn-sm btn-success mr-4">New Record</a>
 
     <form action="{{ url('/staff') }}" method="GET" class="my-4">

@@ -1,8 +1,9 @@
 @extends("inheritance/theme")
-@section("title" , "Student" )
+@section("title" , "Teacher/Student" )
 @section("content")
 
 <table class="table table-striped">
+
     <thead>
         <tr>
             <th>#</th>
@@ -183,5 +184,6 @@
         </tr>
     </tbody>
 </table>
+
 
 @endsection

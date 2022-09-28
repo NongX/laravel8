@@ -16,8 +16,6 @@
             <th>Death</th>
             <th>Recovered</th>
             <th>Total in 1 Million</th>
-            <th>Action</th>
-
         </tr>
         @foreach($covid19s as $item)
         <tr>
